@@ -1,0 +1,39 @@
+{
+  "name": "devikgupta.xyz-replit",
+  "version": "1.0.0",
+  "engines": {
+    "node": "17.x"
+  },
+  "description": "https://devikgupta.xyz Website hosted on Replit.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guptadevik2003/devikgupta.xyz-replit.git"
+  },
+  "author": "Devik_NotFound#2695",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/guptadevik2003/devikgupta.xyz-replit/issues"
+  },
+  "homepage": "https://github.com/guptadevik2003/devikgupta.xyz-replit#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-mongodb-session": "^3.1.1",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "fs": "^0.0.1-security",
+    "mongoose": "^6.1.2",
+    "node-fetch": "^2.6.6",
+    "path": "^0.12.7",
+    "redirect-ssl": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
