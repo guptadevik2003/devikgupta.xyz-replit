@@ -9,8 +9,6 @@ for (file of functions) {
 }
 
 // Init Functions
-express.dbLogin()
-express.redirectSSL()
 express.appConfig()
 express.useRoute()
 
